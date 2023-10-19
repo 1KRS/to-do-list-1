@@ -1,0 +1,13 @@
+{
+  "name": "To-do list project 1",
+  "version": "1.0.0",
+  "description": "A to-do list made with JS, HTML, CSS, Node, Express, EJS &amp; Bootstrap",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
