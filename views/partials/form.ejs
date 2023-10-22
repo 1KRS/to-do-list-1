@@ -1,0 +1,31 @@
+<form action="/submit" method="POST">
+  <% if (locals.οκ) { %>
+  <label><%= οκ %></label>
+  <% } else if (locals.πρόβλημα) { %>
+  <label><%= πρόβλημα %></label>
+  <%} %>
+  <div class="mb-3">
+    <input
+      type="text"
+      class="form-control"
+      name="reminder"
+      id="reminder"
+      required
+    />
+    <input
+      type="checkbox"
+      class="form-check-input"
+      name="personal"
+      id="personal"
+    />
+    <label class="form-check-label" for="personal">Προσωπικές</label>
+    <input
+      type="checkbox"
+      class="form-check-input"
+      name="business"
+      id="business"
+    />
+    <label class="form-check-label" for="business">Επιχειρείν</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Αποθήκευση</button>
+</form>
